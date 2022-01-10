@@ -50,7 +50,7 @@ class Brutedomain:
         self.level = args.level
         self.sub_dict = args.sub_file
         self.speed = args.speed
-        self.default_dns = True if args.default_dns is "y" else False
+        self.default_dns = True if args.default_dns == "y" else False
         self.next_sub_dict = args.next_sub_file
         self.other_result = args.other_file
 
